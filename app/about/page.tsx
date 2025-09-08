@@ -134,14 +134,14 @@ export default function AboutPage() {
         <div className="mt-4 grid gap-6 md:grid-cols-2">
           <p className="max-w-prose text-foreground/70">
             My passion for technology stems from a simple idea: we can build better tools to enhance
-            healthcare. I use my skills in <b>Python</b>, <b>React</b>, and <b>AI/Machine Learning</b> to create
-            practical solutions for real-world clinical challenges. This isn't just a hobby; it's an
-            extension of my practice. From developing open-source web applications for pain
-            assessment to engineering predictive models for exercise, my aim is to create tools that
-            are accessible, data-driven, and designed to support both clinicians and their clients.
-            I believe that thoughtful technology can empower us to make more informed decisions and
-            ultimately lead to better health outcomes. You can see the code and concepts behind my
-            work on my Projects page.
+            healthcare. I use my skills in <b>Python</b>, <b>React</b>, and{" "}
+            <b>AI/Machine Learning</b> to create practical solutions for real-world clinical
+            challenges. This isn't just a hobby; it's an extension of my practice. From developing
+            open-source web applications for pain assessment to engineering predictive models for
+            exercise, my aim is to create tools that are accessible, data-driven, and designed to
+            support both clinicians and their clients. I believe that thoughtful technology can
+            empower us to make more informed decisions and ultimately lead to better health
+            outcomes. You can see the code and concepts behind my work on my Projects page.
           </p>
           <div className="flex items-center gap-3">
             <Link

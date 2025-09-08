@@ -133,4 +133,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Subtle inline error styles for invalid fields (only after user input) */
+  input:not(:placeholder-shown):invalid,
+  textarea:not(:placeholder-shown):invalid {
+    @apply border-destructive/60 ring-1 ring-destructive/20;
+  }
+  input:not(:placeholder-shown):invalid:focus,
+  textarea:not(:placeholder-shown):invalid:focus {
+    @apply ring-2 ring-destructive/40 outline-none;
+  }
 }

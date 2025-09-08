@@ -8,6 +8,8 @@ type Props = {
   githubUrl?: string | null;
   liveUrl?: string | null;
   image?: string | null;
+  imageDark?: string | null;
+  caseStudySlug?: string;
 };
 
 export function ProjectCard({
@@ -17,13 +19,25 @@ export function ProjectCard({
   githubUrl,
   liveUrl,
   image,
+  imageDark,
+  caseStudySlug,
 }: Props) {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-lg border bg-card p-5 transform-gpu transition-all hover:-translate-y-0.5 hover:bg-secondary/40 hover:shadow-md">
       <div className="flex items-start gap-4">
         {image ? (
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md border">
-            <Image src={image} alt={title} fill className="object-contain p-2" />
+            {/* Light mode icon */}
+            <Image src={image} alt={title} fill className="block object-contain p-2 dark:hidden" />
+            {/* Dark mode icon (optional) */}
+            {imageDark ? (
+              <Image
+                src={imageDark}
+                alt={title}
+                fill
+                className="hidden object-contain p-2 dark:block"
+              />
+            ) : null}
           </div>
         ) : null}
         <div>
@@ -40,8 +54,8 @@ export function ProjectCard({
         ))}
       </div>
 
-      {(githubUrl || liveUrl) && (
-        <div className="mt-4 flex items-center gap-3 text-sm">
+      {(githubUrl || liveUrl || caseStudySlug) && (
+        <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
           {githubUrl ? (
             <Link
               href={githubUrl}
@@ -60,6 +74,14 @@ export function ProjectCard({
               className="text-primary underline-offset-4 hover:underline"
             >
               Live Demo
+            </Link>
+          ) : null}
+          {caseStudySlug ? (
+            <Link
+              href={`/projects/${caseStudySlug}`}
+              className="text-primary underline-offset-4 hover:underline"
+            >
+              Read case study
             </Link>
           ) : null}
         </div>
