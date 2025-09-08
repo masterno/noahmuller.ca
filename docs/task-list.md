@@ -50,17 +50,17 @@
 - [x] 3.2: **Develop About Page (`/about`):**
   - [x] Add the professional bio text content.
   - [x] Create and style a "Download Resume" button.
-- [ ] 3.3: **Develop Contact Page (`/contact`):**
-  - [ ] Build the `ContactForm.tsx` component using `React Hook Form` and `shadcn/ui` inputs.
-  - [ ] Implement form validation (e.g., for email format, required fields).
+- [x] 3.3: **Develop Contact Page (`/contact`):**
+  - [x] Build the `ContactForm.tsx` component using `React Hook Form` and `shadcn/ui` inputs.
+  - [x] Implement form validation (e.g., for email format, required fields).
   - [ ] Integrate the form submission with Netlify Forms or Formspree.
 
 ## Phase 4: Content-Driven Page Implementation
 
-- [ ] 4.1: **Implement Projects Page (`/projects`):**
-  - [ ] Create the `lib/projectsData.ts` file and populate it with your project details.
-  - [ ] Build the `ProjectCard.tsx` reusable component.
-  - [ ] Fetch the data in `app/projects/page.tsx` and map over it to display a grid of `ProjectCard` components.
+- [x] 4.1: **Implement Projects Page (`/projects`):**
+  - [x] Create the `lib/projectsData.ts` file and populate it with your project details.
+  - [x] Build the `ProjectCard.tsx` reusable component.
+  - [x] Fetch the data in `app/projects/page.tsx` and map over it to display a grid of `ProjectCard` components.
 - [ ] 4.2: **Implement Credentials Page (`/credentials`):**
   - [ ] Create a data file (`lib/credentialsData.ts`) for your full, categorized list of credentials.
   - [ ] Build the page to display the categorized credentials with their descriptions.

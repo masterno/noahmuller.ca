@@ -62,7 +62,7 @@ export const projects: Project[] = [
   {
     title: "Tattoo Virtual Try-On App",
     description:
-      "Fun exploration overlaying vector art on skin regions using simple CV and perspective transforms.",
+      "Uses Google's latest image model Nano Banana to generate tattoo designs, stencil, virtual try-ons, placement maps, and a final tatto brief that you can bring to your artist.",
     technologies: ["React", "Canvas", "OpenCV.js"],
     githubUrl: null,
     liveUrl: null,
@@ -73,7 +73,7 @@ export const projects: Project[] = [
   {
     title: "AI Flashcard Generator App",
     description:
-      "Takes pasted notes and generates spaced-repetition flashcards with LLM assistance.",
+      "Flash card generation from any given subject or notes. Includes folders to organize cards, and a quiz feature to test yourself.",
     technologies: ["Next.js", "TypeScript", "OpenAI API"],
     githubUrl: null,
     liveUrl: null,
