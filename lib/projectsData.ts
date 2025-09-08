@@ -49,7 +49,7 @@ export const projects: Project[] = [
     caseStudySlug: "advanced-calorie-estimator",
   },
   {
-    title: "Kinesiology Portfolio Site",
+    title: "Portfolio Site",
     description:
       "This site: a performant, accessible portfolio built with Next.js and shadcn UI patterns.",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
