@@ -87,9 +87,6 @@ export function Navbar() {
             <Link href="/contact" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
               Contact
             </Link>
-            <div className="pt-2">
-              <ThemeToggle />
-            </div>
           </div>
         </div>
       ) : null}

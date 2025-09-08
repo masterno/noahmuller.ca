@@ -7,32 +7,44 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b bg-gradient-to-b from-secondary to-background py-16 md:py-20 min-h-[60vh] md:min-h-[70vh]">
+      <section className="relative overflow-hidden border-b bg-gradient-to-b from-[rgba(37,99,235,0.06)] to-background py-16 md:py-20 min-h-[60vh] md:min-h-[70vh]">
         {/* Decorative background */}
-        <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
+        <div aria-hidden className="pointer-events-none absolute inset-0">
+          {/* Left radial glow (fallback: rgba) */}
           <div
-            className="absolute -left-40 -top-40 h-[460px] w-[700px] rounded-full blur-2xl"
-            style={{
-              background: "radial-gradient(closest-side, color-mix(in oklab, var(--ring) 75%, transparent), transparent 72%)",
-            }}
-          />
-          <div
-            className="absolute -right-40 top-10 h-[400px] w-[620px] rounded-full blur-2xl"
+            className="absolute -left-40 -top-40 h-[520px] w-[780px] rounded-full blur-2xl"
             style={{
               background:
-                "radial-gradient(closest-side, color-mix(in oklab, var(--primary) 45%, transparent), transparent 72%)",
+                "radial-gradient(closest-side, rgba(100,116,139,0.35), transparent 75%)",
             }}
           />
+          {/* Right radial glow (brand blue) */}
           <div
-            className="absolute inset-0 opacity-[0.18]"
+            className="absolute -right-40 top-10 h-[460px] w-[700px] rounded-full blur-2xl"
+            style={{
+              background:
+                "radial-gradient(closest-side, rgba(37,99,235,0.45), transparent 75%)",
+            }}
+          />
+          {/* Dot grid (reverted to previous strength) */}
+          <div
+            className="absolute inset-0 opacity-[0.34]"
             style={{
               backgroundImage:
-                "radial-gradient(circle at 1px 1px, color-mix(in oklab, var(--foreground) 35%, transparent) 1px, transparent 0)",
-              backgroundSize: "18px 18px",
+                "radial-gradient(circle at 1px 1px, rgba(0,0,0,0.24) 1px, transparent 0)",
+              backgroundSize: "16px 16px",
+            }}
+          />
+          {/* Top overlay for extra contrast in light mode */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(to bottom, rgba(37,99,235,0.12), rgba(37,99,235,0.00) 55%)",
             }}
           />
         </div>
-        <div className="container mx-auto grid items-center gap-8 px-4 md:grid-cols-2">
+        <div className="relative z-10 container mx-auto grid items-center gap-8 px-4 md:grid-cols-2">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border bg-background/60 px-3 py-1 text-xs text-foreground/70 shadow-sm ring-1 ring-border backdrop-blur">
               <span className="inline-block h-2 w-2 rounded-full bg-primary" />
