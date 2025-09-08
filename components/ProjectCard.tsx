@@ -10,9 +10,16 @@ type Props = {
   image?: string | null;
 };
 
-export function ProjectCard({ title, description, technologies, githubUrl, liveUrl, image }: Props) {
+export function ProjectCard({
+  title,
+  description,
+  technologies,
+  githubUrl,
+  liveUrl,
+  image,
+}: Props) {
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-lg border bg-card p-5 transition-colors hover:bg-secondary/40">
+    <div className="group relative flex flex-col overflow-hidden rounded-lg border bg-card p-5 transform-gpu transition-all hover:-translate-y-0.5 hover:bg-secondary/40 hover:shadow-md">
       <div className="flex items-start gap-4">
         {image ? (
           <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md border">

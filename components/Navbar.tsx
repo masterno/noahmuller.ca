@@ -72,19 +72,39 @@ export function Navbar() {
       {open ? (
         <div className="border-t border-[color:var(--nav-border)] bg-[var(--nav)] p-4 text-[color:var(--nav-foreground)] md:hidden">
           <div className="flex flex-col gap-2">
-            <Link href="/about" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
+            <Link
+              href="/about"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
               About
             </Link>
-            <Link href="/projects" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
+            <Link
+              href="/projects"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
               Projects
             </Link>
-            <Link href="/credentials" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
+            <Link
+              href="/credentials"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
               Credentials
             </Link>
-            <Link href="/blog" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
+            <Link
+              href="/blog"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
               Blog
             </Link>
-            <Link href="/contact" onClick={() => setOpen(false)} className="text-[color:var(--nav-foreground)]/90">
+            <Link
+              href="/contact"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
               Contact
             </Link>
           </div>
