@@ -115,7 +115,7 @@ export default function Home() {
               body: "Movement assessments, exercise programming, and client-centered outcomes with evidence-based methods.",
               Icon: Activity,
               ctaLabel: "Learn more",
-              ctaHref: "/about",
+              ctaHref: "/about#clinical",
             },
             {
               title: "Technology Projects",
@@ -129,7 +129,7 @@ export default function Home() {
               body: "Strength and conditioning programs tailored to goals, injuries, and readiness—with clear progress tracking.",
               Icon: Dumbbell,
               ctaLabel: "Learn more",
-              ctaHref: "/about",
+              ctaHref: "/about#training",
             },
           ].map(({ title, body, Icon, ctaLabel, ctaHref }) => (
             <div
