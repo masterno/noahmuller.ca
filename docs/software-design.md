@@ -60,46 +60,49 @@ File: content/blog/my-first-post.mdx
 
 ```yaml
 ---
-title: 'My First Post'
-date: '2025-09-15'
-excerpt: 'A short summary of what this post is about...'
-coverImage: '/images/blog/my-first-post.jpg'
-tags: ['Next.js', 'Kinesiology']
+title: "My First Post"
+date: "2025-09-15"
+excerpt: "A short summary of what this post is about..."
+coverImage: "/images/blog/my-first-post.jpg"
+tags: ["Next.js", "Kinesiology"]
 ---
 ```
+
 The main content of the blog post starts here, written in Markdown...
 
 ### 5.2 Projects Content Model
+
 Project data will be stored in a centralized JSON or TypeScript file (e.g., `lib/projectsData.ts`) to be easily imported into components.
 
 **File:** `lib/projectsData.ts`
 
 export const projects = [
-  {
-    title: 'HPPAP - Open Source Pain Assessment Tool',
-    description: 'Developed an open-source React web app...',
-    technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/masterno/HPPAP/',
-    liveUrl: null, // or the live URL
-    image: '/images/projects/hppap.png'
-  },
-  // ...other projects
+{
+title: 'HPPAP - Open Source Pain Assessment Tool',
+description: 'Developed an open-source React web app...',
+technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+githubUrl: 'https://github.com/masterno/HPPAP/',
+liveUrl: null, // or the live URL
+image: '/images/projects/hppap.png'
+},
+// ...other projects
 ];
 
-
 ### 5.3 Data Flow (Static Site Generation)
+
 - For the blog index and individual blog pages, Next.js's data fetching functions (generateStaticParams, etc.) will read the content/blog directory at build time.
 - It will parse the frontmatter and content of each .mdx file.
 - It will then pass this data as props to the React components (BlogIndexPage.tsx, BlogPostLayout.tsx) to pre-render the static HTML for each page.
 - Project data will be imported from the projectsData.ts file into the relevant components.
 
 ## 6. Deployment & CI/CD Pipeline
+
 - **Source Control:** The project will be hosted in a Git repository on GitHub.
 - **Deployment Platform:** Netlify.
 - **Workflow:**
-    1.  Development is done locally on a feature branch.
-    2.  Code is pushed to the GitHub repository.
-    3.  A pull request is created to the `main` branch. Netlify can generate a deploy preview for this PR.
-    4.  Upon merging to `main`, a webhook triggers a new build on Netlify.
-    5.  Netlify runs the build command (`next build`).
-    6.  If the build is successful, the new static site is atomically deployed to the CDN, making it live.
+  1.  Development is done locally on a feature branch.
+  2.  Code is pushed to the GitHub repository.
+  3.  A pull request is created to the `main` branch. Netlify can generate a deploy preview for this PR.
+  4.  Upon merging to `main`, a webhook triggers a new build on Netlify.
+  5.  Netlify runs the build command (`next build`).
+  6.  If the build is successful, the new static site is atomically deployed to the CDN, making it live.
