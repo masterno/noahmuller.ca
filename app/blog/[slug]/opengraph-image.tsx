@@ -1,14 +1,13 @@
 import { ImageResponse } from "next/og";
-import { NextRequest } from "next/server";
 import { getAllPostsMeta } from "../../../lib/blog";
 
-export const runtime = "edge";
+// Use Node.js runtime since we read from the filesystem in lib/blog
+export const runtime = "nodejs";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export async function GET(req: NextRequest, { params }: { params: { slug: string } }) {
-  const { slug } = params;
-  const post = getAllPostsMeta().find((p) => p.slug === slug);
+export default async function OgImage({ params }: { params: { slug: string } }) {
+  const post = getAllPostsMeta().find((p) => p.slug === params.slug);
 
   const title = post?.title ?? "Post";
   const date = post ? new Date(post.date).toLocaleDateString() : "";

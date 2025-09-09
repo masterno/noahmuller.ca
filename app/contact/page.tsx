@@ -1,9 +1,9 @@
 "use client";
 
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
 
-export default function ContactPage() {
+function ContactContent() {
   const params = useSearchParams();
   const success = params.get("success") === "1";
   const [showBanner, setShowBanner] = useState(success);
@@ -235,5 +235,13 @@ export default function ContactPage() {
         </aside>
       </div>
     </section>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={<section className="container mx-auto px-4 py-12">Loading…</section>}>
+      <ContactContent />
+    </Suspense>
   );
 }

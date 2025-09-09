@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: set environment variables in Netlify UI for production
+# [context.production.environment]
+#   NEXT_PUBLIC_SITE_URL = "https://noahmuller.ca"
