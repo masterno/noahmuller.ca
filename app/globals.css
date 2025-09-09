@@ -133,6 +133,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   /* Subtle inline error styles for invalid fields (only after user input) */
   input:not(:placeholder-shown):invalid,
   textarea:not(:placeholder-shown):invalid {
@@ -141,5 +144,26 @@
   input:not(:placeholder-shown):invalid:focus,
   textarea:not(:placeholder-shown):invalid:focus {
     @apply ring-2 ring-destructive/40 outline-none;
+  }
+}
+
+/* Blog: Table of Contents styling */
+@layer components {
+  .prose #table-of-contents {
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  .prose #table-of-contents + ul {
+    border: 1px solid hsl(var(--border));
+    background: hsl(var(--background));
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    list-style: disc inside;
+  }
+  .prose #table-of-contents + ul li {
+    margin: 0.125rem 0;
   }
 }

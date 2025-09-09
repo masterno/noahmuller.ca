@@ -61,6 +61,38 @@ public/
 
 Optimized for Netlify. Connect this repository to Netlify and deploy with default Next.js settings. The contact form uses Netlify Forms (no server code required).
 
+## Blog Authoring
+
+Posts live as Markdown files with YAML frontmatter. The site uses `gray-matter` + a remark→rehype pipeline with:
+
+- `remark-parse`, `remark-gfm`
+- `remark-rehype`
+- `rehype-slug`, `rehype-autolink-headings`
+- `rehype-highlight`, `rehype-stringify`
+
+Required frontmatter fields:
+
+```yaml
+---
+title: My Post Title        # required
+date: 2025-09-09            # required (YYYY-MM-DD or ISO)
+excerpt: Short teaser text  # optional
+coverImage: /images/cover.png # optional (served from /public)
+---
+```
+
+Add a new post:
+
+1. Create a new file in `content/blog/` with `.md` extension (slug is the filename).
+2. Fill out the frontmatter per above.
+3. Write Markdown below the frontmatter. GitHub-flavored Markdown is supported (tables, task lists, etc.).
+4. Optional: code blocks get syntax highlighting automatically.
+
+Routes:
+
+- Index: `/blog` (lists posts)
+- Post: `/blog/[slug]`
+
 ## Contributing
 
 Issues and PRs welcome. For significant changes, open an issue first to discuss the approach.
