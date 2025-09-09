@@ -29,7 +29,9 @@ export async function GET(req: NextRequest, { params }: { params: { slug: string
         }}
       >
         <div style={{ fontSize: 22, opacity: 0.8 }}>noahmuller.ca</div>
-        <div style={{ fontSize: 64, lineHeight: 1.1, fontWeight: 700, maxWidth: 1000 }}>{title}</div>
+        <div style={{ fontSize: 64, lineHeight: 1.1, fontWeight: 700, maxWidth: 1000 }}>
+          {title}
+        </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ fontSize: 22, opacity: 0.85 }}>{date}</div>
           <div
@@ -46,6 +48,6 @@ export async function GET(req: NextRequest, { params }: { params: { slug: string
         </div>
       </div>
     ),
-    { ...size }
+    { ...size },
   );
 }

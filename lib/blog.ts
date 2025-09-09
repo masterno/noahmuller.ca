@@ -7,9 +7,10 @@ import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import remarkRehype from "remark-rehype";
 import rehypeSlug from "rehype-slug";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
+// Removed autolink plugin to avoid clickable headings in posts
 import rehypeHighlight from "rehype-highlight";
 import rehypeStringify from "rehype-stringify";
+import rehypeRaw from "rehype-raw";
 
 export type PostFrontmatter = {
   title: string;
@@ -41,12 +42,12 @@ export function getAllPostsMeta(): PostMeta[] {
     const { title, date, excerpt, coverImage } = data as PostFrontmatter;
     return { slug, title, date, excerpt, coverImage: coverImage ?? null } as PostMeta;
   });
-  return posts
-    .filter((p) => p.title && p.date)
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+  return posts.filter((p) => p.title && p.date).sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export async function getPostHtmlBySlug(slug: string): Promise<{ meta: PostMeta; html: string } | null> {
+export async function getPostHtmlBySlug(
+  slug: string,
+): Promise<{ meta: PostMeta; html: string } | null> {
   const file = path.join(BLOG_DIR, `${slug}.md`);
   if (!fs.existsSync(file)) return null;
   const raw = fs.readFileSync(file, "utf8");
@@ -61,12 +62,14 @@ export async function getPostHtmlBySlug(slug: string): Promise<{ meta: PostMeta;
   const processed = await remark()
     .use(remarkParse)
     .use(remarkGfm)
-    .use(remarkToc, { heading: 'Table of Contents', maxDepth: 3, tight: true })
-    .use(remarkRehype)
+    .use(remarkToc, { heading: "Table of Contents", maxDepth: 3, tight: true })
+    // Allow raw HTML in markdown (e.g., iframe) to pass through to Rehype
+    .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeSlug)
-    .use(rehypeAutolinkHeadings, { behavior: "wrap" })
+    // Parse any raw HTML nodes (like iframes) before stringifying
+    .use(rehypeRaw)
     .use(rehypeHighlight)
-    .use(rehypeStringify)
+    .use(rehypeStringify, { allowDangerousHtml: true })
     .process(content);
   return { meta, html: processed.toString() };
 }

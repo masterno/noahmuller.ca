@@ -14,7 +14,7 @@ export default function PostCard({ title, slug, date, excerpt, coverImage }: Pos
     <article className="group flex gap-4 rounded-lg border p-4 transition-colors hover:bg-foreground/5">
       {coverImage ? (
         <div className="relative hidden h-24 w-36 shrink-0 overflow-hidden rounded-md border sm:block">
-          <Image src={coverImage} alt="cover" fill className="object-cover" />
+          <Image src={coverImage} alt={`${title} cover image`} fill className="object-cover" />
         </div>
       ) : null}
       <div className="min-w-0">

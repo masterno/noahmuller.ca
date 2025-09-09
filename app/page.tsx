@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "../lib/projectsData";
 import { ProjectCard } from "../components/ProjectCard";
+import { getAllPostsMeta } from "../lib/blog";
 import { Activity, Code, Dumbbell, ChevronRight } from "lucide-react";
 
 export default function Home() {
@@ -51,7 +52,7 @@ export default function Home() {
             </div>
             <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
               <span className="bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-                Noah Muller
+                Noah Muller | B.Kin, CSEP-CPT, HMS, IMT
               </span>
               <br />
               <span className="text-lg opacity-70">
@@ -80,7 +81,7 @@ export default function Home() {
           <div className="relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-xl border bg-card shadow-[0_20px_60px_rgba(0,0,0,0.12)] ring-1 ring-border">
             <Image
               src="/images/hero.png"
-              alt="Project screenshot: AI Goniometer"
+              alt="Portfolio hero image"
               fill
               className="object-cover p-0"
             />
@@ -199,9 +200,10 @@ export default function Home() {
             </Link>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
-            {require("../lib/blogData")
-              .posts.slice(0, 3)
-              .map((p: any) => (
+            {getAllPostsMeta()
+              .sort((a, b) => (a.date < b.date ? 1 : -1))
+              .slice(0, 3)
+              .map((p) => (
                 <article
                   key={p.slug}
                   className="rounded-lg border p-5 transform-gpu transition-all hover:-translate-y-0.5 hover:bg-secondary/40 hover:shadow-md"
@@ -209,7 +211,7 @@ export default function Home() {
                   <div className="flex items-start gap-4">
                     {p.coverImage ? (
                       <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-md border">
-                        <Image src={p.coverImage} alt="" width={48} height={48} />
+                        <Image src={p.coverImage} alt={p.title} width={48} height={48} />
                       </div>
                     ) : null}
                     <div>
@@ -218,7 +220,9 @@ export default function Home() {
                           {p.title}
                         </Link>
                       </h3>
-                      <p className="mt-1 line-clamp-2 text-sm text-foreground/70">{p.excerpt}</p>
+                      {p.excerpt ? (
+                        <p className="mt-1 line-clamp-2 text-sm text-foreground/70">{p.excerpt}</p>
+                      ) : null}
                       <p className="mt-2 text-xs text-foreground/50">
                         {new Date(p.date).toLocaleDateString()}
                       </p>

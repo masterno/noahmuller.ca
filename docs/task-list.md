@@ -61,9 +61,9 @@
   - [x] Create the `lib/projectsData.ts` file and populate it with your project details.
   - [x] Build the `ProjectCard.tsx` reusable component.
   - [x] Fetch the data in `app/projects/page.tsx` and map over it to display a grid of `ProjectCard` components.
-- [X] 4.2: **Implement Credentials Page (`/credentials`):**
-  - [X] Create a data file (`lib/credentialsData.ts`) for your full, categorized list of credentials.
-  - [X] Build the page to display the categorized credentials with their descriptions.
+- [x] 4.2: **Implement Credentials Page (`/credentials`):**
+  - [x] Create a data file (`lib/credentialsData.ts`) for your full, categorized list of credentials.
+  - [x] Build the page to display the categorized credentials with their descriptions.
 - [ ] 4.3: **Implement Blog Functionality:**
   - [ ] Install `gray-matter` and `remark` libraries.
   - [ ] Create utility functions in `lib/blog.ts` to read and parse all markdown files from `content/blog/`.

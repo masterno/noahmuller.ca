@@ -25,11 +25,13 @@ export const credentialCategories: CredentialCategory[] = [
         title: "Kinesiology (Bachelor's)",
         issuer: "University of British Columbia",
         description: "Sept 2019 – Apr 2021 • GPA 3.95",
+        link: "/certificates/Bachelor-of-Human-Kinetics.jpg",
       },
       {
         title: "Human Kinetics (Associate Degree of Exercise Science)",
         issuer: "Capilano University",
         description: "Sept 2015 – Apr 2018",
+        link: "/certificates/Diploma-Exercise-Science.jpg",
       },
       {
         title: "Web Design and Development (Certificate)",
@@ -57,7 +59,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Joint mobilization, soft‑tissue techniques",
           "Movement analysis and manual interventions",
         ],
-        link: "https://brookbushinstitute.com/",
+        link: "/certificates/integrated-manual-therapist-certificate.pdf",
       },
       {
         title: "Human Movement Specialist (HMS)",
@@ -68,6 +70,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Corrective exercise design",
         ],
         validThrough: "Jun 2027",
+        link: "/certificates/human-movement-specialist-certificate.pdf",
       },
       {
         title: "Certified Personal Trainer (CPT)",
@@ -77,6 +80,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Individualized training plans; injury prevention",
         ],
         validThrough: "Jul 2027",
+        link: "/certificates/certified-personal-trainer-certificate(brookbush).pdf",
       },
       {
         title: "CSEP Certified Personal Trainer (CSEP‑CPT)",
@@ -85,6 +89,7 @@ export const credentialCategories: CredentialCategory[] = [
           "National certification for assessment and prescription",
           "Qualified to administer CSEP‑PATH®",
         ],
+        link: "/certificates/CSEP-CPT.pdf",
       },
     ],
   },
@@ -101,7 +106,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Applied generative AI + prompt engineering for chatbots",
           "Covered SDLC and core AI concepts",
         ],
-        link: "https://www.coursera.org/professional-certificates/ibm-ai-developer",
+        link: "https://coursera.org/share/da5a798ac863e1a300734eab74d7fb23",
       },
       {
         title: "Certificate in Computer Science",
@@ -111,7 +116,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Databases (SQL/Postgres), computer architecture",
           "Git/GitHub, software engineering fundamentals",
         ],
-        link: "https://www.codecademy.com/learn/paths/computer-science",
+        link: "/certificates/Computer-Science-Certificate-Codecademy.pdf",
       },
       {
         title: "IBM Key Technologies for Business",
@@ -120,6 +125,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Cloud, Data & AI fundamentals",
           "Business value/ROI framing and real‑world use cases",
         ],
+        link: "https://coursera.org/share/65ff64b46dddcded8c15f23f2c83e390",
       },
       {
         title: "IBM Generative AI for Digital Marketing",
@@ -128,6 +134,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Prompting for content (articles, posts, ad copy)",
           "Optimize ads, SEO, and email with gen‑AI",
         ],
+        link: "https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd",
       },
       {
         title: "Google AI Essentials",
@@ -145,6 +152,15 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/44519615a08bc16b07578d3823aff3a5",
       },
       {
+        title: "Generative AI Leader",
+        issuer: "Coursera",
+        bullets: [
+          "AI strategy and leadership fundamentals",
+          "Ethics, governance, and organizational adoption",
+        ],
+        link: "https://coursera.org/share/0add86dad9fda59d8e9d7c351c0fb528",
+      },
+      {
         title: "IBM AI Foundations for Business Specialization",
         issuer: "Coursera",
         bullets: [
@@ -157,11 +173,13 @@ export const credentialCategories: CredentialCategory[] = [
         title: "Learn Python 3",
         issuer: "Codecademy",
         bullets: ["Python syntax, types, control flow, functions"],
+        link: "/certificates/Python3-Certificate-Codecademy.pdf",
       },
       {
         title: "Learn JavaScript",
         issuer: "Codecademy",
         bullets: ["Variables, functions, arrays/objects, DOM"],
+        link: "/certificates/Javascript-Certificate-Codecademy.pdf",
       },
     ],
   },
@@ -188,11 +206,13 @@ export const credentialCategories: CredentialCategory[] = [
           "Medical management & exercise physiology",
           "Evidence‑based prescription for cancer care",
         ],
+        link: "/certificates/bone-metastases-and-exercise-hub-professional-development-course-noah-muller.pdf",
       },
       {
         title: "CSEP‑CPT Scope of Practice Update – Working with All Ages",
         issuer: "CSEP",
         bullets: ["Updated scope; best practices across the lifespan"],
+        link: "/certificates/CSEP-CPT-scope-update-working-with-all-ages.pdf",
       },
       {
         title: "Pain BC – Pain Foundations (Basic & Advanced)",
@@ -201,6 +221,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Current pain science; biopsychosocial model",
           "Person‑centered, trauma‑informed practices",
         ],
+        link: "/certificates/pain-foundations.pdf",
       },
       {
         title: "Pain BC – Moving Through Pain",
@@ -209,14 +230,16 @@ export const credentialCategories: CredentialCategory[] = [
           "Movement/relaxation techniques for chronic pain",
           "Biopsychosocial framework; self‑management",
         ],
+        link: "/certificates/moving-through-pain.pdf",
       },
       {
         title: "Blood Flow Restriction (BFR) – Practitioner Certificate",
-        issuer: "—",
+        issuer: "OMT Training",
         bullets: [
           "Mechanisms and safe application",
           "Protocols for hypertrophy, aerobic training, rehab",
         ],
+        link: "/certificates/certificate-bfr-cpd-course-practitioners-certification-622cac8fcf0de644fd709b98.pdf",
       },
       {
         title: "Hypervolt Movement Enhancement Course",
@@ -225,19 +248,48 @@ export const credentialCategories: CredentialCategory[] = [
           "ROM improvement; stiffness reduction",
           "Soft‑tissue health via percussion therapy",
         ],
+        link: "/certificates/hypervolt-movement-enhancement-course.pdf",
       },
       {
         title: "Certificate of Excellence in Blood Pressure Testing for Clinical Practice",
-        issuer: "—",
+        issuer: "OMT Training",
         bullets: [
           "Accurate BP measurement and device use",
           "Result interpretation for clinical accuracy",
         ],
+        link: "/certificates/certificate-blood-pressure-testing-for-clinical-practice-certificate-of-excellence-602849471538b62fa55d5554.pdf",
       },
       {
         title: "Health Promotion Foundations",
         issuer: "Public Health Ontario",
         bullets: ["Program planning; community engagement", "Evidence‑informed population health"],
+      },
+      {
+        title: "Holistic Weight Management",
+        issuer: "NASM / Coursera",
+        bullets: [
+          "Nutrition fundamentals for sustainable weight management",
+          "Behavior change strategies and practical coaching tools",
+        ],
+        link: "https://coursera.org/share/90b9e59e399edd74ece22a7dba546fac",
+      },
+      {
+        title: "Nutrition Mastery for Fitness and Wellness",
+        issuer: "NASM / Coursera",
+        bullets: [
+          "Macronutrients, micronutrients, and practical meal design",
+          "Applying nutrition principles to training and recovery",
+        ],
+        link: "https://coursera.org/share/52db08854a352b0dc177022f32451e5d",
+      },
+      {
+        title: "Science of Diet and Exercise",
+        issuer: "NASM / Coursera",
+        bullets: [
+          "Metabolism, energy balance, and body composition",
+          "Evidence‑based exercise programming aligned with nutrition",
+        ],
+        link: "https://coursera.org/share/613b4e94f5b7c18add109ab4eb66e4e1",
       },
     ],
   },
@@ -251,13 +303,14 @@ export const credentialCategories: CredentialCategory[] = [
         issuer: "St. John Ambulance",
         description: "Comprehensive first aid and CPR.",
         validThrough: "Nov 2026",
-        link: "https://www.sja.ca/",
+        link: "/certificates/Emergency-First-Aid-Noah-Muller.pdf",
       },
       {
         title: "WHMIS",
-        issuer: "—",
+        issuer: "eSafetyFirst",
         description: "Workplace hazardous materials safety; labels and SDS understanding.",
         validThrough: "Jan 2026",
+        link: "/certificates/WHMIS-CERT2.pdf",
       },
       {
         title: "Skidsteer Operator Certificate",

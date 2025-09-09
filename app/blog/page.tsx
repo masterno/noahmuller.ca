@@ -26,7 +26,13 @@ export default function BlogIndexPage() {
           <ul className="grid gap-4">
             {posts.map((p) => (
               <li key={p.slug}>
-                <PostCard title={p.title} slug={p.slug} date={p.date} excerpt={p.excerpt} coverImage={p.coverImage} />
+                <PostCard
+                  title={p.title}
+                  slug={p.slug}
+                  date={p.date}
+                  excerpt={p.excerpt}
+                  coverImage={p.coverImage}
+                />
               </li>
             ))}
           </ul>

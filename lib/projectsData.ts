@@ -7,6 +7,7 @@ export type Project = {
   image?: string | null;
   imageDark?: string | null;
   featured?: boolean;
+  featuredOrder?: number; // lower = earlier in Featured grid
   category: "health" | "tech";
   caseStudySlug?: string;
 };
@@ -21,19 +22,9 @@ export const projects: Project[] = [
     liveUrl: "http://masterno.github.io/HPPAP/",
     image: "/file.svg",
     featured: true,
+    featuredOrder: 1,
     category: "health",
     caseStudySlug: "hppap",
-  },
-  {
-    title: "AI Goniometer (Concept)",
-    description:
-      "Exploratory project using computer vision to estimate joint angles from video for remote assessments.",
-    technologies: ["Next.js", "TypeScript", "MediaPipe"],
-    githubUrl: undefined,
-    liveUrl: undefined,
-    image: "/globe.svg",
-    featured: true,
-    category: "health",
   },
   {
     title: "Advanced Calorie Estimator",
@@ -44,9 +35,23 @@ export const projects: Project[] = [
     liveUrl: "https://masterno.github.io/Advanced-Calorie-Estimator",
     image: "/images/bicycle-light-mode.png",
     imageDark: "/images/bicycle-dark-mode.png",
-    featured: false,
+    featured: true,
+    featuredOrder: 2,
     category: "health",
     caseStudySlug: "advanced-calorie-estimator",
+  },
+  {
+    title: "AI Goniometer (Concept)",
+    description:
+      "Exploratory project using computer vision to estimate joint angles from video for remote assessments.",
+    technologies: ["Next.js", "TypeScript", "MediaPipe"],
+    githubUrl: undefined,
+    liveUrl: undefined,
+    image: "/globe.svg",
+    featured: true,
+    featuredOrder: 3,
+    category: "health",
+    caseStudySlug: undefined,
   },
   {
     title: "Portfolio Site",

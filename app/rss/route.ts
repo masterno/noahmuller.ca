@@ -6,7 +6,12 @@ export async function GET() {
   const posts: PostMeta[] = getAllPostsMeta();
 
   const lastBuildDate = posts.length
-    ? new Date(posts.map((p) => p.date).sort().slice(-1)[0]).toUTCString()
+    ? new Date(
+        posts
+          .map((p) => p.date)
+          .sort()
+          .slice(-1)[0],
+      ).toUTCString()
     : new Date().toUTCString();
 
   const items = posts

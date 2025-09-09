@@ -74,9 +74,9 @@ Required frontmatter fields:
 
 ```yaml
 ---
-title: My Post Title        # required
-date: 2025-09-09            # required (YYYY-MM-DD or ISO)
-excerpt: Short teaser text  # optional
+title: My Post Title # required
+date: 2025-09-09 # required (YYYY-MM-DD or ISO)
+excerpt: Short teaser text # optional
 coverImage: /images/cover.png # optional (served from /public)
 ---
 ```

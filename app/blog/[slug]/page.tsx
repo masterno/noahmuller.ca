@@ -29,7 +29,13 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
       <p className="text-xs text-foreground/60">{new Date(meta.date).toLocaleDateString()}</p>
       {meta.coverImage ? (
         <div className="not-prose my-6 mx-auto w-full max-w-md overflow-hidden rounded-lg border">
-          <Image src={meta.coverImage} alt="cover" width={600} height={315} className="h-auto w-full" />
+          <Image
+            src={meta.coverImage}
+            alt={`${meta.title} cover image`}
+            width={600}
+            height={315}
+            className="h-auto w-full"
+          />
         </div>
       ) : null}
       <div dangerouslySetInnerHTML={{ __html: html }} />
