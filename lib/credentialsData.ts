@@ -208,7 +208,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Fitness/functional assessment in older adults",
           "Evidence‑based, tailored programming",
         ],
-        link: "https://csep.ca/",
+        link: "/certificates/CSEP-Exercise-Prescription-for-Older-Adults.pdf",
       },
       {
         title: "Bone Metastases and Exercise Hub PD Course",
