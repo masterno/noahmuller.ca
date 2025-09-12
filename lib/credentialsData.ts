@@ -60,6 +60,7 @@ export const credentialCategories: CredentialCategory[] = [
           "Joint mobilization, soft‑tissue techniques",
           "Movement analysis and manual interventions",
         ],
+        validThrough: "July 2027",
         link: "/certificates/integrated-manual-therapist-certificate.pdf",
       },
       {
