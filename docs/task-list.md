@@ -64,25 +64,25 @@
 - [x] 4.2: **Implement Credentials Page (`/credentials`):**
   - [x] Create a data file (`lib/credentialsData.ts`) for your full, categorized list of credentials.
   - [x] Build the page to display the categorized credentials with their descriptions.
-- [ ] 4.3: **Implement Blog Functionality:**
-  - [ ] Install `gray-matter` and `remark` libraries.
-  - [ ] Create utility functions in `lib/blog.ts` to read and parse all markdown files from `content/blog/`.
-  - [ ] Create a few sample `.mdx` blog posts with frontmatter to use for development.
-  - [ ] Build the blog index page (`app/blog/page.tsx`) that fetches and displays a list of all posts.
-  - [ ] Create the dynamic route `app/blog/[slug]/page.tsx`.
-  - [ ] Implement the data fetching (`generateStaticParams`) to create routes for each post.
-  - [ ] Build the blog post layout to render the title, metadata, and post content.
+- [x] 4.3: **Implement Blog Functionality:**
+  - [x] Install `gray-matter` and `remark` libraries.
+  - [x] Create utility functions in `lib/blog.ts` to read and parse all markdown files from `content/blog/`.
+  - [x] Create a few sample `.mdx` blog posts with frontmatter to use for development.
+  - [x] Build the blog index page (`app/blog/page.tsx`) that fetches and displays a list of all posts.
+  - [x] Create the dynamic route `app/blog/[slug]/page.tsx`.
+  - [x] Implement the data fetching (`generateStaticParams`) to create routes for each post.
+  - [x] Build the blog post layout to render the title, metadata, and post content.
 
 ## Phase 5: Finalization, Testing & Deployment
 
-- [ ] 5.1: **Review and Polish:**
-  - [ ] Proofread all static text content on the site.
-  - [ ] Test all internal and external links.
-  - [ ] Ensure all images have appropriate `alt` tags and are optimized for the web.
-- [ ] 5.2: **Quality Assurance:**
-  - [ ] Test website responsiveness on various screen sizes (mobile, tablet, desktop).
-  - [ ] Test for accessibility: check keyboard navigation, color contrast, and test with a screen reader.
-  - [ ] Run a Google Lighthouse audit and aim for scores of 90+ in all categories.
+- [x] 5.1: **Review and Polish:**
+  - [x] Proofread all static text content on the site.
+  - [x] Test all internal and external links.
+  - [x] Ensure all images have appropriate `alt` tags and are optimized for the web.
+- [x] 5.2: **Quality Assurance:**
+  - [x] Test website responsiveness on various screen sizes (mobile, tablet, desktop).
+  - [x] Test for accessibility: check keyboard navigation, color contrast, and test with a screen reader.
+  - [x] Run a Google Lighthouse audit and aim for scores of 90+ in all categories.
 - [ ] 5.3: **Set Up Deployment:**
   - [ ] Create a new site on your Netlify account.
   - [ ] Connect the Netlify site to your GitHub repository.

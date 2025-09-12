@@ -137,6 +137,15 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd",
       },
       {
+        title: "Generative AI for Growth Marketing",
+        issuer: "Coursera",
+        bullets: [
+          "Applied Gen‑AI across the full marketing funnel with automation",
+          "Designed a strategic AI‑powered campaign with segmentation & tracking",
+        ],
+        link: "https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa",
+      },
+      {
         title: "Google AI Essentials",
         issuer: "Coursera",
         bullets: [

@@ -24,3 +24,6 @@ https://coursera.org/share/0add86dad9fda59d8e9d7c351c0fb528
 
 IBM Generative AI for Digital Marketing:
 https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd
+
+Generative AI for Growth Marketing
+https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa

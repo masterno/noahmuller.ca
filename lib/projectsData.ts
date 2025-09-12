@@ -16,7 +16,7 @@ export const projects: Project[] = [
   {
     title: "HPPAP – Open Source Pain Assessment Tool",
     description:
-      "A React-based web app for standardized pain assessment with modular components and clean UI.",
+      "Standard 1-10 pain scales often fail to capture the full picture of a client's experience. To address this, I developed HPPAP, an open-source web app that provides a more comprehensive, multidimensional pain assessment, allowing clinicians to gain deeper insights into a patient's condition.",
     technologies: ["React", "TypeScript", "Vite"],
     githubUrl: "https://github.com/masterno/HPPAP/",
     liveUrl: "http://masterno.github.io/HPPAP/",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   {
     title: "Advanced Calorie Estimator",
     description:
-      "Personalized calorie burn estimates powered by a Lasso regression model trained on ~5k workouts, with engineered features (non-linear + interactions) and safeguards to avoid unrealistic extrapolation.",
+      "While standard MET calculations are a useful baseline, they don't account for individual differences in fitness and physiology. I engineered a more precise solution: a Python-based machine learning model trained on real-world data to provide a more personalized and accurate prediction of a client's energy expenditure during exercise.",
     technologies: ["Python", "scikit-learn", "Pandas"],
     githubUrl: "https://github.com/masterno/Advanced-Calorie-Estimator",
     liveUrl: "https://masterno.github.io/Advanced-Calorie-Estimator",
