@@ -158,7 +158,7 @@ function ContactContent() {
           <ul className="mt-3 space-y-2 text-sm">
             <li>
               <a
-                href="https://www.linkedin.com/in/noahmuller/"
+                href="https://www.linkedin.com/in/noah-muller-20930739/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline-offset-4 hover:underline"

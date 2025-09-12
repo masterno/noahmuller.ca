@@ -17,7 +17,7 @@ export function Footer() {
             GitHub
           </Link>
           <Link
-            href="https://www.linkedin.com/in/noahmuller/"
+            href="https://www.linkedin.com/in/noah-muller-20930739/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors text-[color:var(--nav-foreground)]/70 hover:text-[color:var(--nav-foreground)]"
