@@ -50,6 +50,7 @@ export const credentialCategories: CredentialCategory[] = [
         issuer: "British Columbia Association of Kinesiologists (BCAK)",
         description:
           "Professional registration recognizing competency to practice in BC; adheres to scope of practice, code of ethics, and CE requirements.",
+        link: "/certificates/BCAK.pdf",
       },
       {
         title: "Integrated Manual Therapy (IMT) Certification",
