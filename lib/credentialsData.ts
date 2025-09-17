@@ -101,6 +101,17 @@ export const credentialCategories: CredentialCategory[] = [
     intro: "This section highlights unique technical skills and applied coursework.",
     items: [
       {
+        title: "Applied Software Engineering Fundamentals",
+        issuer: "IBM / Coursera",
+        bullets: [
+          "Software development lifecycle (SDLC)",
+          "Python app development and deployment",
+          "Git and GitHub for version control",
+          "Bash and Shell scripts",
+        ],
+        link: "https://coursera.org/share/4eea4e88f96ba991d56c4f9f1d21bb99",
+      },
+      {
         title: "IBM AI Developer Professional Certificate",
         issuer: "IBM / Coursera",
         bullets: [
