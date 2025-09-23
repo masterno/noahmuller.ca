@@ -339,6 +339,17 @@ export const credentialCategories: CredentialCategory[] = [
         issuer: "—",
         description: "Safe operation and maintenance of skid steer heavy equipment.",
       },
+      {
+        title: "Introduction to OSHA: Safety Standards and Compliance",
+        issuer: "Instructor Network | Coursera",
+        bullets: [
+          "Demonstrate the importance of OSHA.",
+          "Analyze the Standards of OSHA.",
+          "Execute the responsibilities and rights that OSHA advocates.",
+          "Implement the whistleblower Protection under OSHA.",
+        ],
+        link: "https://coursera.org/share/e64ed811568688c2a4e57fa846a34ef6",
+      },
     ],
   },
 ];

@@ -27,3 +27,7 @@ https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd
 
 Generative AI for Growth Marketing
 https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa
+
+Applied Software Engineering Fundamentals
+https://www.coursera.org/account/accomplishments/specialization/931A9M15AKLU
+
