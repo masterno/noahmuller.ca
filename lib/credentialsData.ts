@@ -350,6 +350,12 @@ export const credentialCategories: CredentialCategory[] = [
         ],
         link: "https://coursera.org/share/e64ed811568688c2a4e57fa846a34ef6",
       },
+      {
+        title: "Procore Field Worker Certification",
+        issuer: "Procore",
+        description: "Training on the use of Procore software",
+        link: "http://verify.skilljar.com/c/x2fbtodfyb2d",
+      },
     ],
   },
 ];
