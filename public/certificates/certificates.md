@@ -30,4 +30,3 @@ https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa
 
 Applied Software Engineering Fundamentals
 https://www.coursera.org/account/accomplishments/specialization/931A9M15AKLU
-

@@ -27,6 +27,12 @@ export function Navbar() {
             Projects
           </Link>
           <Link
+            href="/ohs"
+            className="transition-colors text-[color:var(--nav-foreground)]/70 hover:text-[color:var(--nav-foreground)]"
+          >
+            OHS
+          </Link>
+          <Link
             href="/credentials"
             className="transition-colors text-[color:var(--nav-foreground)]/70 hover:text-[color:var(--nav-foreground)]"
           >
@@ -85,6 +91,13 @@ export function Navbar() {
               className="text-[color:var(--nav-foreground)]/90"
             >
               Projects
+            </Link>
+            <Link
+              href="/ohs"
+              onClick={() => setOpen(false)}
+              className="text-[color:var(--nav-foreground)]/90"
+            >
+              OHS
             </Link>
             <Link
               href="/credentials"
