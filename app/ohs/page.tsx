@@ -19,13 +19,13 @@ export default function OHSPage() {
           </h1>
           <div className="mt-4 max-w-prose">
             <p className="text-foreground/80">
-              A dedicated and proactive professional leveraging over 10 years of experience in high-risk
-              industries, including 2+ years in leadership roles, to transition into the Occupational
-              Health and Safety field. Proven ability to train teams, implement safety protocols, and
-              foster a safety-first culture in environments like construction and landscaping. Combines
-              a deep, scientific understanding of ergonomics and injury prevention with technical skills
-              in data analysis and application development to create innovative, data-driven safety
-              solutions.
+              A dedicated and proactive professional leveraging over 10 years of experience in
+              high-risk industries, including 2+ years in leadership roles, to transition into the
+              Occupational Health and Safety field. Proven ability to train teams, implement safety
+              protocols, and foster a safety-first culture in environments like construction and
+              landscaping. Combines a deep, scientific understanding of ergonomics and injury
+              prevention with technical skills in data analysis and application development to
+              create innovative, data-driven safety solutions.
             </p>
             <div className="mt-6 flex gap-3">
               <a
@@ -111,8 +111,6 @@ export default function OHSPage() {
           />
         </div>
       </section>
-
-      
     </div>
   );
 }
