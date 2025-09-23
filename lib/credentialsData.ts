@@ -356,6 +356,17 @@ export const credentialCategories: CredentialCategory[] = [
         description: "Training on the use of Procore software",
         link: "http://verify.skilljar.com/c/x2fbtodfyb2d",
       },
+      {
+        title: "Supervising for Safety",
+        issuer: "WorksafeBC",
+        bullets: [
+          "Safety management systms.",
+          "Musculoskeletal injury reduction.",
+          "Workplace evaluations.",
+          "Incident analysis.",
+        ],
+        link: "/certificates/worksafebc-supervising-for-safety.pdf",
+      },
     ],
   },
 ];
