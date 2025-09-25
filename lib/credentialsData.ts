@@ -367,6 +367,16 @@ export const credentialCategories: CredentialCategory[] = [
         ],
         link: "/certificates/worksafebc-supervising-for-safety.pdf",
       },
+      {
+        title: "Health, Safety, and Environmental (HSE) Engineering",
+        issuer: "Khalifa University",
+        bullets: [
+          "Design and implement integrated HSE management systems aligned with OSHA, EPA, and ISO standards.",
+          "Conduct advanced hazard identification, risk assessments, and root-cause analyses for industrial safety.",
+          "Develop and apply ISO 14001–based environmental management systems and sustainability strategies.",
+        ],
+        link: "https://coursera.org/share/edcda7c66eb6e98170db15bc766cdec4",
+      },
     ],
   },
 ];
