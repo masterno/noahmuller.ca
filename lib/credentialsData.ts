@@ -212,6 +212,15 @@ export const credentialCategories: CredentialCategory[] = [
       "A selection of focused courses and modules undertaken to deepen my expertise in specific areas of practice.",
     items: [
       {
+        title: "CSEP-CEP Certification Preparation: Clinical Assessment",
+        issuer: "CSEP",
+        bullets: [
+          "Principles of assessment in clinical exercise physiology",
+          "Assessment protocols used in exercise physiology",
+        ],
+        link: "https://onlinelearning.csep.ca/certificates/ujug41rh3d",
+      },
+      {
         title: "Advanced Learning Module: Disability and Exercise",
         issuer: "CSEP",
         bullets: [
