@@ -212,6 +212,16 @@ export const credentialCategories: CredentialCategory[] = [
       "A selection of focused courses and modules undertaken to deepen my expertise in specific areas of practice.",
     items: [
       {
+        title: "Advanced Learning Module: Disability and Exercise",
+        issuer: "CSEP",
+        bullets: [
+          "Exercise prescription for individuals with disability",
+          "Communication when working with clients",
+          "How to set up a safe and inclusive exercise environment",
+        ],
+        link: "https://onlinelearning.csep.ca/certificates/j8ukekhriq",
+      },
+      {
         title: "Advanced Learning Module: Exercise Prescription for Older Adults",
         issuer: "CSEP",
         bullets: [
