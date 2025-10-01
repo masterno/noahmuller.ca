@@ -141,8 +141,8 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/65ff64b46dddcded8c15f23f2c83e390",
       },
       {
-        title: "IBM Generative AI for Digital Marketing",
-        issuer: "Coursera",
+        title: "Generative AI for Digital Marketing",
+        issuer: "IBM |Coursera",
         bullets: [
           "Prompting for content (articles, posts, ad copy)",
           "Optimize ads, SEO, and email with gen‑AI",
@@ -151,12 +151,23 @@ export const credentialCategories: CredentialCategory[] = [
       },
       {
         title: "Generative AI for Growth Marketing",
-        issuer: "Coursera",
+        issuer: "IBM | Coursera",
         bullets: [
           "Applied Gen‑AI across the full marketing funnel with automation",
           "Designed a strategic AI‑powered campaign with segmentation & tracking",
         ],
         link: "https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa",
+      },
+      {
+        title: "Generative AI for Software Development",
+        issuer: "IBM | Coursera",
+        bullets: [
+          "Identified real-world generative AI uses and describe popular generative AI models and tools for text, code, image, audio, and video",
+          "Explained generative AI prompt engineering concepts, examples, and common tools and learn techniques needed to create effective, impactful prompts",
+          "Learned about tools and techniques to generate code snippets, scripts, test cases, and applications using generative AI models",
+          "Developed innovative software engineering solutions using AI-powered tools and LLMs  ",
+        ],
+        link: "https://coursera.org/share/cb66b7600648233d21d3305c1d255f80",
       },
       {
         title: "Google AI Essentials",
