@@ -4,6 +4,7 @@ export type Project = {
   technologies: string[];
   githubUrl?: string | null;
   liveUrl?: string | null;
+  liveLabel?: string | null;
   image?: string | null;
   imageDark?: string | null;
   featured?: boolean;
@@ -41,6 +42,20 @@ export const projects: Project[] = [
     caseStudySlug: "advanced-calorie-estimator",
   },
   {
+    title: "AI-Powered Overhead Squat Assessor",
+    description:
+      "A clinical tool designed for physical therapists and trainers to streamline movement screening. This application uses AI to analyze observational and goniometric data from an overhead squat, identifying potential muscle imbalances. It then generates a fully customizable, data-driven corrective exercise plan, complete with exercise alternatives and exportable reports, enhancing diagnostic efficiency and client care.",
+    technologies: ["React", "TypeScript", "Gemini API", "Tailwind CSS"],
+    githubUrl: undefined,
+    liveUrl: "https://overhead-squat-assessor-335483159135.us-west1.run.app/",
+    liveLabel: "Live App",
+    image: "/file.svg",
+    featured: true,
+    featuredOrder: 3,
+    category: "health",
+    caseStudySlug: "overhead-squat-assessor",
+  },
+  {
     title: "AI Goniometer (Concept)",
     description:
       "Exploratory project using computer vision to estimate joint angles from video for remote assessments.",
@@ -48,8 +63,7 @@ export const projects: Project[] = [
     githubUrl: undefined,
     liveUrl: undefined,
     image: "/globe.svg",
-    featured: true,
-    featuredOrder: 3,
+    featured: false,
     category: "health",
     caseStudySlug: undefined,
   },

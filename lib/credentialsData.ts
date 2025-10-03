@@ -102,7 +102,7 @@ export const credentialCategories: CredentialCategory[] = [
     items: [
       {
         title: "Applied Software Engineering Fundamentals",
-        issuer: "IBM / Coursera",
+        issuer: "IBM | Coursera",
         bullets: [
           "Software development lifecycle (SDLC)",
           "Python app development and deployment",
@@ -112,8 +112,8 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/4eea4e88f96ba991d56c4f9f1d21bb99",
       },
       {
-        title: "IBM AI Developer Professional Certificate",
-        issuer: "IBM / Coursera",
+        title: "AI Developer Professional Certificate",
+        issuer: "IBM | Coursera",
         bullets: [
           "Built full‑stack apps with Python, Flask, JS/HTML/CSS",
           "Applied generative AI + prompt engineering for chatbots",
@@ -132,8 +132,8 @@ export const credentialCategories: CredentialCategory[] = [
         link: "/certificates/Computer-Science-Certificate-Codecademy.pdf",
       },
       {
-        title: "IBM Key Technologies for Business",
-        issuer: "Coursera",
+        title: "Key Technologies for Business",
+        issuer: "IBM | Coursera",
         bullets: [
           "Cloud, Data & AI fundamentals",
           "Business value/ROI framing and real‑world use cases",
@@ -186,7 +186,7 @@ export const credentialCategories: CredentialCategory[] = [
       },
       {
         title: "Generative AI Leader",
-        issuer: "Coursera",
+        issuer: "Google Cloud | Coursera",
         bullets: [
           "AI strategy and leadership fundamentals",
           "Ethics, governance, and organizational adoption",
@@ -194,8 +194,8 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/0add86dad9fda59d8e9d7c351c0fb528",
       },
       {
-        title: "IBM AI Foundations for Business Specialization",
-        issuer: "Coursera",
+        title: "AI Foundations for Business Specialization",
+        issuer: "IBM |Coursera",
         bullets: [
           "Applied AI/Data concepts for business",
           "AI Ladder: data → deploy/operationalize",

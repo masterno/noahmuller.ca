@@ -7,6 +7,7 @@ type Props = {
   technologies: string[];
   githubUrl?: string | null;
   liveUrl?: string | null;
+  liveLabel?: string | null;
   image?: string | null;
   imageDark?: string | null;
   caseStudySlug?: string;
@@ -18,6 +19,7 @@ export function ProjectCard({
   technologies,
   githubUrl,
   liveUrl,
+  liveLabel,
   image,
   imageDark,
   caseStudySlug,
@@ -73,7 +75,7 @@ export function ProjectCard({
               rel="noopener noreferrer"
               className="text-primary underline-offset-4 hover:underline"
             >
-              Live Demo
+              {liveLabel ?? "Live Demo"}
             </Link>
           ) : null}
           {caseStudySlug ? (
