@@ -19,8 +19,8 @@ export const projects: Project[] = [
     description:
       "Standard 1-10 pain scales often fail to capture the full picture of a client's experience. To address this, I developed HPPAP, an open-source web app that provides a more comprehensive, multidimensional pain assessment, allowing clinicians to gain deeper insights into a patient's condition.",
     technologies: ["React", "TypeScript", "Vite"],
-    githubUrl: "https://github.com/masterno/HPPAP/",
-    liveUrl: "http://masterno.github.io/HPPAP/",
+    githubUrl: "https://github.com/masterno/HPPAP2.0",
+    liveUrl: "https://masterno.github.io/HPPAP2.0/",
     image: "/file.svg",
     featured: true,
     featuredOrder: 1,
