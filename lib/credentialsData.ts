@@ -407,6 +407,16 @@ export const credentialCategories: CredentialCategory[] = [
         ],
         link: "https://coursera.org/share/edcda7c66eb6e98170db15bc766cdec4",
       },
+      {
+        title: "Construction Project Management",
+        issuer: "Columbia University | Coursera",
+        bullets: [
+          "The fundamentals of construction management from construction industry, the role of project manager, contract types, and project delivery methods.",
+          "how to deliver a lean project and maintain sustainability",
+          "explored technology trends and project planning",
+        ],
+        link: "https://www.coursera.org/account/accomplishments/verify/A3VVFFFDLH7G?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+      },
     ],
   },
 ];
