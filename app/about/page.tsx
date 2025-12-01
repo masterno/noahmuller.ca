@@ -7,38 +7,53 @@ export default function AboutPage() {
       {/* Intro / Bio */}
       <section id="bio" className="grid items-start gap-8 md:grid-cols-[1fr_320px]">
         <div>
-          <h1 className="text-3xl font-semibold tracking-tight">Hello, I'm Noah Muller.</h1>
+          <h1 className="text-3xl font-semibold tracking-tight">
+            Bridging the Gap Between Manual Labor, Clinical Science, and Modern Technology.
+          </h1>
           <div className="mt-4 max-w-prose space-y-4 text-foreground/70">
             <p>
-              I'm a Registered Kinesiologist and a developer, and I'm passionate about the
-              intersection of human movement and technology. My mission is to improve client
-              outcomes by combining evidence-based clinical practice with innovative, custom-built
-              digital tools.
+              I am a BCAK Registered Kinesiologist, CSEP-Certified Personal Trainer, and full-stack
+              developer. My mission is to improve client outcomes by combining evidence-based
+              clinical practice with innovative, custom-built digital tools.
+            </p>
+            <h2 className="text-xl font-semibold tracking-tight text-foreground">
+              From the Job Site to the Clinic
+            </h2>
+            <p>
+              My journey into healthcare wasn't traditional. I spent over a decade in the
+              construction and landscaping industries, leading teams and executing complex projects
+              with precision. That experience gave me more than just a strong work ethic&mdash;it gave
+              me a deep, first-hand understanding of the physical demands placed on the human body.
             </p>
             <p>
-              My professional journey has been unique. I spent over a decade in the construction and
-              landscaping industries, where I learned the value of hard work, precision, and leading
-              a team to get the job done right. That experience gave me a deep appreciation for the
-              physical demands the body can handle, but it also ignited a deeper curiosity to
-              understand the science behind movement, performance, and rehabilitation. This passion
-              led me to pursue a Bachelor's degree in Human Kinetics from UBC and become a Certified
-              Human Movement Specialist (HMS).
+              This curiosity led me to UBC, where I earned my Bachelor's degree in Kinesiology to
+              better understand the science behind the movement, durability, and rehabilitation I
+              saw on the job site every day.
+            </p>
+            <h2 className="text-xl font-semibold tracking-tight text-foreground">
+              The Technical Edge
+            </h2>
+            <p>
+              As I entered the clinical world, my problem-solving instincts kicked in. I saw gaps
+              where technology could streamline assessments and improve patient adherence. Teaching
+              myself to code, I moved from simple scripts to building complex platforms.
             </p>
             <p>
-              As I delved deeper into the world of kinesiology, my problem-solving instincts from my
-              previous career kicked in. I saw opportunities where technology could enhance
-              traditional assessment and build more accessible tools for both clinicians and
-              clients. This inspired me to teach myself to code. I started by building an
-              open-source pain assessment web app (HPPAP) and have since moved on to creating
-              AI-powered tools for range of motion analysis and predictive models for exercise.
+              Most recently, I developed Fit Flux, an AI-powered practice management platform that
+              uses contextual data to generate corrective exercise programs and track client
+              progress. I build these tools not to replace the human element, but to handle the data
+              so I can focus on what matters: the client in front of me.
+            </p>
+            <h2 className="text-xl font-semibold tracking-tight text-foreground">My Focus Today</h2>
+            <p>
+              I am fully focused on my career in kinesiology and personal training. I bring a unique
+              "triple-threat" skillset to my practice: the grit of a tradesman, the science of a
+              clinician, and the efficiency of a developer.
             </p>
             <p>
-              Today, I'm fully focused on my career in kinesiology and personal training, where I
-              can apply both my clinical knowledge and my technical skills. Whether I'm working with
-              a client one-on-one or building a new digital health tool, my goal remains the same:
-              to use a scientific, client-centered approach to help people move better and live
-              healthier lives. If you're interested in my work or have a project you'd like to
-              discuss, please feel free to get in touch.
+              Whether I am rehabilitating an injured worker or coaching a client to a new PR, my
+              goal is the same: using a scientific, client-centered approach to help people move
+              better and live healthier lives.
             </p>
           </div>
           <div className="mt-6 flex gap-3">
