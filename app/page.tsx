@@ -184,6 +184,7 @@ export default function Home() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects
             .filter((p) => p.featured)
+            .sort((a, b) => (a.featuredOrder ?? 99) - (b.featuredOrder ?? 99))
             .map((p) => (
               <ProjectCard key={p.title} {...p} />
             ))}

@@ -15,6 +15,19 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Fit Flux",
+    description:
+      "A professional-grade training platform combining an AI coach for athletes with powerful roster management and program building tools for trainers. Features auto-regulating plans and daily readiness assessments.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "AI"],
+    githubUrl: null,
+    liveUrl: "https://fitflux.co",
+    image: "/globe.svg",
+    featured: true,
+    featuredOrder: 1,
+    category: "health",
+    caseStudySlug: "fit-flux",
+  },
+  {
     title: "HPPAP – Open Source Pain Assessment Tool",
     description:
       "Standard 1-10 pain scales often fail to capture the full picture of a client's experience. To address this, I developed HPPAP, an open-source web app that provides a more comprehensive, multidimensional pain assessment, allowing clinicians to gain deeper insights into a patient's condition.",
