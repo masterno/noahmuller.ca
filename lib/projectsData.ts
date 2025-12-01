@@ -21,7 +21,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "AI"],
     githubUrl: null,
     liveUrl: "https://fitflux.co",
-    image: "/globe.svg",
+    image: "/images/fitfluxlogo.png",
     featured: true,
     featuredOrder: 1,
     category: "health",
