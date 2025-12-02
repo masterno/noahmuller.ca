@@ -56,16 +56,14 @@ export default function FitFluxCaseStudy() {
               <h3 className="font-medium text-lg mb-2">For Athletes</h3>
               <ul className="list-disc pl-5 space-y-1 text-sm text-foreground/70">
                 <li>
-                  <strong>AI Coach:</strong> Adapts to your recovery and performance needs
-                  daily.
+                  <strong>AI Coach:</strong> Adapts to your recovery and performance needs daily.
                 </li>
                 <li>
                   <strong>Auto-Regulation:</strong> Programs that adjust intensity based on your
                   readiness.
                 </li>
                 <li>
-                  <strong>Visual Tracking:</strong> Monitor progress with clear data
-                  visualization.
+                  <strong>Visual Tracking:</strong> Monitor progress with clear data visualization.
                 </li>
               </ul>
             </div>
