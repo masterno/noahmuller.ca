@@ -22,6 +22,7 @@ export const projects: Project[] = [
     githubUrl: null,
     liveUrl: "https://fitflux.co",
     image: "/images/fitfluxlogo.png",
+    imageDark: "/images/fitfluxlogo.png",
     featured: true,
     featuredOrder: 1,
     category: "health",
