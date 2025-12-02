@@ -22,8 +22,9 @@ export default function AboutPage() {
             <p>
               My journey into healthcare wasn't traditional. I spent over a decade in the
               construction and landscaping industries, leading teams and executing complex projects
-              with precision. That experience gave me more than just a strong work ethic&mdash;it gave
-              me a deep, first-hand understanding of the physical demands placed on the human body.
+              with precision. That experience gave me more than just a strong work ethic&mdash;it
+              gave me a deep, first-hand understanding of the physical demands placed on the human
+              body.
             </p>
             <p>
               This curiosity led me to UBC, where I earned my Bachelor's degree in Kinesiology to

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function FitFluxCaseStudy() {
   return (
@@ -16,7 +15,8 @@ export default function FitFluxCaseStudy() {
           <p className="mt-4 max-w-prose text-foreground/70">
             Professional-grade training tools for everyone. Whether you are an athlete looking for
             adaptive, AI-driven coaching or a trainer seeking to scale your business with automated
-            programming and client management, Fit Flux delivers a unified platform for high-performance results.
+            programming and client management, Fit Flux delivers a unified platform for
+            high-performance results.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3 text-sm">
@@ -39,9 +39,7 @@ export default function FitFluxCaseStudy() {
               <span className="text-sm">App Screenshot Placeholder</span>
             </div>
           </div>
-          <p className="mt-2 text-center text-xs text-foreground/60">
-            Fit Flux - Platform UI
-          </p>
+          <p className="mt-2 text-center text-xs text-foreground/60">Fit Flux - Platform UI</p>
         </aside>
       </div>
 
@@ -49,25 +47,43 @@ export default function FitFluxCaseStudy() {
         <section>
           <h2 className="text-2xl font-semibold tracking-tight">Two Powerful Modes</h2>
           <p className="mt-2 max-w-prose text-foreground/70">
-            Fit Flux bridges the gap between individual performance tracking and professional coaching tools.
+            Fit Flux bridges the gap between individual performance tracking and professional
+            coaching tools.
           </p>
-          
+
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <div className="rounded-lg border p-4">
               <h3 className="font-medium text-lg mb-2">For Athletes</h3>
               <ul className="list-disc pl-5 space-y-1 text-sm text-foreground/70">
-                <li><strong>AI Coach:</strong> Adapts to your recovery and performance needs daily.</li>
-                <li><strong>Auto-Regulation:</strong> Programs that adjust intensity based on your readiness.</li>
-                <li><strong>Visual Tracking:</strong> Monitor progress with clear data visualization.</li>
+                <li>
+                  <strong>AI Coach:</strong> Adapts to your recovery and performance needs
+                  daily.
+                </li>
+                <li>
+                  <strong>Auto-Regulation:</strong> Programs that adjust intensity based on your
+                  readiness.
+                </li>
+                <li>
+                  <strong>Visual Tracking:</strong> Monitor progress with clear data
+                  visualization.
+                </li>
               </ul>
             </div>
 
             <div className="rounded-lg border p-4">
               <h3 className="font-medium text-lg mb-2">For Trainers</h3>
               <ul className="list-disc pl-5 space-y-1 text-sm text-foreground/70">
-                <li><strong>Roster Management:</strong> Streamlined dashboard for all your clients.</li>
-                <li><strong>Program Builder:</strong> AI-assisted tools to generate personalized plans instantly.</li>
-                <li><strong>Automated Check-ins:</strong> Save time with automated forms and compliance tracking.</li>
+                <li>
+                  <strong>Roster Management:</strong> Streamlined dashboard for all your clients.
+                </li>
+                <li>
+                  <strong>Program Builder:</strong> AI-assisted tools to generate personalized plans
+                  instantly.
+                </li>
+                <li>
+                  <strong>Automated Check-ins:</strong> Save time with automated forms and
+                  compliance tracking.
+                </li>
               </ul>
             </div>
           </div>
@@ -77,12 +93,16 @@ export default function FitFluxCaseStudy() {
           <h2 className="text-2xl font-semibold tracking-tight">Core Technology & Approach</h2>
           <h3 className="mt-2 text-sm font-medium">Context-Aware Programming</h3>
           <p className="mt-2 max-w-prose text-foreground/70">
-            Unlike static templates, Fit Flux starts with a comprehensive assessment of goals, injuries, and available equipment. It uses this data to generate structured plans that evolve with the user.
+            Unlike static templates, Fit Flux starts with a comprehensive assessment of goals,
+            injuries, and available equipment. It uses this data to generate structured plans that
+            evolve with the user.
           </p>
 
           <h3 className="mt-4 text-sm font-medium">Business Scaling for Coaches</h3>
           <p className="mt-2 max-w-prose text-foreground/70">
-            The platform is designed to handle multi-client workflows, allowing clinics and coaches to reuse and adapt high-quality templates while maintaining the personal touch required for effective rehabilitation and training.
+            The platform is designed to handle multi-client workflows, allowing clinics and coaches
+            to reuse and adapt high-quality templates while maintaining the personal touch required
+            for effective rehabilitation and training.
           </p>
         </section>
       </div>
