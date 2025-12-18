@@ -112,6 +112,29 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/4eea4e88f96ba991d56c4f9f1d21bb99",
       },
       {
+        title: "Modern Web Development with TypeScript",
+        issuer: "Edureka | Coursera",
+        description: "Completed Dec 2025",
+        bullets: [
+          "TypeScript fundamentals, compiler options, and advanced typing",
+          "Applied OOP principles in TypeScript for scalable application design",
+          "Built strongly typed React frontends with UI component libraries",
+          "Developed secure Node.js + MongoDB backends with TypeScript",
+        ],
+        link: "https://www.coursera.org/share/06276c6e44e52be09d46eafb36f45b86",
+      },
+      {
+        title: "Learn Tailwind CSS",
+        issuer: "Scrimba | Coursera",
+        description: "Completed Dec 2025",
+        bullets: [
+          "Applied Tailwind CSS utility classes for efficient, consistent styling",
+          "Designed responsive layouts across multiple device sizes",
+          "Built modular typography systems for clean, readable interfaces",
+        ],
+        link: "https://coursera.org/share/e6f093e1c2507c0b4cd2d137309807b8",
+      },
+      {
         title: "AI Developer Professional Certificate",
         issuer: "IBM | Coursera",
         bullets: [
