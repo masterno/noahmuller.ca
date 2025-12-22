@@ -164,24 +164,6 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://coursera.org/share/65ff64b46dddcded8c15f23f2c83e390",
       },
       {
-        title: "Generative AI for Digital Marketing",
-        issuer: "IBM |Coursera",
-        bullets: [
-          "Prompting for content (articles, posts, ad copy)",
-          "Optimize ads, SEO, and email with gen‑AI",
-        ],
-        link: "https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd",
-      },
-      {
-        title: "Generative AI for Growth Marketing",
-        issuer: "IBM | Coursera",
-        bullets: [
-          "Applied Gen‑AI across the full marketing funnel with automation",
-          "Designed a strategic AI‑powered campaign with segmentation & tracking",
-        ],
-        link: "https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa",
-      },
-      {
         title: "Generative AI for Software Development",
         issuer: "IBM | Coursera",
         bullets: [
@@ -365,6 +347,43 @@ export const credentialCategories: CredentialCategory[] = [
           "Evidence‑based exercise programming aligned with nutrition",
         ],
         link: "https://coursera.org/share/613b4e94f5b7c18add109ab4eb66e4e1",
+      },
+    ],
+  },
+  {
+    id: "marketing",
+    name: "Digital Marketing & Strategy",
+    intro: "Expertise in leveraging AI and traditional frameworks for digital growth.",
+    items: [
+      {
+        title: "Digital Marketing Certified",
+        issuer: "HubSpot Academy",
+        bullets: [
+          "Digital Marketing Fundamentals",
+          "Content Marketing & SEO",
+          "Ads & Social Media",
+          "Consumer Behavior & Ethical Strategies",
+        ],
+        validThrough: "Jan 2027",
+        link: "https://app-na3.hubspot.com/academy/achievements/bvc07dbz/en/1/noah-muller/digital-marketing",
+      },
+      {
+        title: "Generative AI for Digital Marketing",
+        issuer: "IBM | Coursera",
+        bullets: [
+          "Prompting for content (articles, posts, ad copy)",
+          "Optimize ads, SEO, and email with gen‑AI",
+        ],
+        link: "https://coursera.org/share/4ab011c394ac217b24d6ed5bc1b391cd",
+      },
+      {
+        title: "Generative AI for Growth Marketing",
+        issuer: "IBM | Coursera",
+        bullets: [
+          "Applied Gen‑AI across the full marketing funnel with automation",
+          "Designed a strategic AI‑powered campaign with segmentation & tracking",
+        ],
+        link: "https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa",
       },
     ],
   },
