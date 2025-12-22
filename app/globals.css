@@ -200,7 +200,7 @@
     --sidebar-ring: #a7bbff;
     --nav: #0b0e12;
     --nav-foreground: #ffffff;
-    --nav-border: rgba(255, 255, 255, 0.10);
+    --nav-border: rgba(255, 255, 255, 0.1);
   }
 }
 
