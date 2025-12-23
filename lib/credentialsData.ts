@@ -385,6 +385,15 @@ export const credentialCategories: CredentialCategory[] = [
         ],
         link: "https://coursera.org/share/c7dfa3a3af2ddb2158687b7ebb6edcfa",
       },
+      {
+        title: "Canva Essentials",
+        issuer: "Canva",
+        bullets: [
+          "Design fundamentals and tools",
+          "Visual storytelling and branding",
+        ],
+        link: "https://www.canva.com/design-school/certification-award/1315c37c-cf7f-4186-8263-45a88ba78d11",
+      },
     ],
   },
   {
@@ -458,6 +467,15 @@ export const credentialCategories: CredentialCategory[] = [
           "explored technology trends and project planning",
         ],
         link: "https://www.coursera.org/account/accomplishments/verify/A3VVFFFDLH7G?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+      },
+      {
+        title: "Occupational Health and Safety Program Fundamentals – All Modules",
+        issuer: "go2HR",
+        bullets: [
+          "Foundational modules for developing and maintaining an effective OHS program.",
+          "OHS roles and responsibilities, hazard identification, and risk control.",
+        ],
+        link: "https://certifications.rapidlms.com/certifications/4004239",
       },
     ],
   },
