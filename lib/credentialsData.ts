@@ -394,6 +394,24 @@ export const credentialCategories: CredentialCategory[] = [
         ],
         link: "https://www.canva.com/design-school/certification-award/1315c37c-cf7f-4186-8263-45a88ba78d11",
       },
+      {
+        title: "Graphic Design Essentials",
+        issuer: "Canva",
+        bullets: [
+          "Graphic design fundamentals and layout principles",
+          "Creating impactful visual content and creative assets",
+        ],
+        link: "https://www.canva.com/design-school/certification-award/3398ed8f-837c-4868-aa29-5ab2342d3aec?",
+      },
+      {
+        title: "Meet Canva's Visual Suite",
+        issuer: "Canva",
+        bullets: [
+          "Mastering Canva's visual communication tools",
+          "Designing presentations, documents, and visual content",
+        ],
+        link: "https://www.canva.com/design-school/certification-award/fead5171-2770-4d2b-91ac-6e3dfe049cac",
+      },
     ],
   },
   {
