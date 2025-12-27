@@ -247,6 +247,17 @@ export const credentialCategories: CredentialCategory[] = [
         link: "https://onlinelearning.csep.ca/certificates/j8ukekhriq",
       },
       {
+        title: "Advanced Learning Module: Cancer & Exercise",
+        issuer: "CSEP",
+        bullets: [
+          "Latest clinical practice guidelines in cancer and exercise",
+          "Cancer epidemiology, biology, and therapy toxicity",
+          "Exercise oncology principles and guidelines",
+          "Tailored exercise prescription and adherence for cancer survivors",
+        ],
+        link: "https://onlinelearning.csep.ca/certificates/bawxv5cssk",
+      },
+      {
         title: "Advanced Learning Module: Exercise Prescription for Older Adults",
         issuer: "CSEP",
         bullets: [
