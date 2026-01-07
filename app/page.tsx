@@ -3,6 +3,7 @@ import Link from "next/link";
 import { projects } from "../lib/projectsData";
 import { ProjectCard } from "../components/ProjectCard";
 import { getAllPostsMeta } from "../lib/blog";
+import HeroProfileCard from "../components/HeroProfileCard";
 import { Activity, Code, Dumbbell, ChevronRight } from "lucide-react";
 
 export default function Home() {
@@ -78,19 +79,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-xl border bg-card shadow-[0_20px_60px_rgba(0,0,0,0.12)] ring-1 ring-border">
-            <Image
-              src="/images/hero.png"
-              alt="Portfolio hero image"
-              fill
-              className="object-cover p-0"
-            />
-            {/* subtle vignette */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0 bg-[radial-gradient(75%_60%_at_50%_40%,transparent,rgba(0,0,0,0.32))]"
-            />
-          </div>
+          <HeroProfileCard />
         </div>
         {/* Bottom wave divider */}
         <svg

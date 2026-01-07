@@ -1,11 +1,13 @@
-import Image from "next/image";
+"use client";
+
 import Link from "next/link";
+import ProfileCard from "@/components/ProfileCard";
 
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Intro / Bio */}
-      <section id="bio" className="grid items-start gap-8 md:grid-cols-[1fr_320px]">
+      <section id="bio" className="grid items-start gap-8 md:grid-cols-[1fr_auto]">
         <div>
           <h1 className="text-3xl font-semibold tracking-tight">
             Bridging the Gap Between Manual Labor, Clinical Science, and Modern Technology.
@@ -72,12 +74,21 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
-        <div className="relative mx-auto aspect-square w-full max-w-[320px] overflow-hidden rounded-full border bg-card shadow-[0_12px_40px_rgba(0,0,0,0.12)] ring-1 ring-border">
-          <Image
-            src="/images/headshot.png"
-            alt="Headshot of Noah Muller"
-            fill
-            className="object-cover"
+        <div className="flex justify-center">
+          <ProfileCard
+            avatarUrl="/images/headshot.png"
+            miniAvatarUrl="/images/headshot.png"
+            name="Noah Muller"
+            title="Kinesiologist & Developer"
+            handle="noahmuller"
+            status="Available for clients"
+            contactText="Contact"
+            showUserInfo
+            enableMobileTilt
+            innerGradient="linear-gradient(145deg, #3b5998 0%, #192f5d 100%)"
+            behindGlowColor="rgba(59, 89, 152, 0.5)"
+            behindGlowSize="50%"
+            onContactClick={() => window.location.href = "/contact"}
           />
         </div>
       </section>
