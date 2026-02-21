@@ -114,14 +114,15 @@ export default function CredentialsPage() {
                             Valid through: {item.validThrough}
                           </p>
                         ) : null}
+                        {item.description ? (
+                          <p className="mt-2 text-sm text-foreground/80">{item.description}</p>
+                        ) : null}
                         {item.bullets && item.bullets.length > 0 ? (
                           <ul className="mt-2 list-disc pl-5 text-sm text-foreground/80">
                             {item.bullets.map((b) => (
                               <li key={b}>{b}</li>
                             ))}
                           </ul>
-                        ) : item.description ? (
-                          <p className="mt-2 text-sm text-foreground/80">{item.description}</p>
                         ) : null}
                         {item.link ? (
                           <div className="mt-3">

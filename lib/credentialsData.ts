@@ -53,6 +53,18 @@ export const credentialCategories: CredentialCategory[] = [
         link: "/certificates/BCAK.pdf",
       },
       {
+        title: "Physiotutors Masterclasses",
+        issuer: "Physiotutors",
+        description: "22 master classes from Physiotutors",
+        bullets: [
+          "Strength and conditioning rehab",
+          "Cognitive functional therapy",
+          "Pain management",
+          "Clinical reasoning",
+        ],
+        link: "/certificates/Physiotutors%20Certificates.pdf",
+      },
+      {
         title: "Integrated Manual Therapy (IMT) Certification",
         issuer: "Brookbush Institute",
         bullets: [
